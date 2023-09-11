@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centro {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    line-height: 500px; 
+    border: 2px solid #000;
+    padding: 5px;
+
+}
+
+.nome {
+    font-size: 18px;
+}
+
+
+/* Estilo para o container das divs */
+.container {
+    position: relative;
+}
+
+/* Estilo para as divs */
+.div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.superior-esquerdo {
+    top: 0;
+    left: 0;
+    background-color: #3498db; /* Azul */
+}
+
+.superior-direito {
+    top: 0;
+    right: 0;
+    background-color: #e74c3c; /* Vermelho */
+}
+
+.inferior-esquerdo {
+    bottom: 0;
+    left: 0;
+    background-color: #2ecc71; /* Verde */
+}
+
+.inferior-direito {
+    bottom: 0;
+    right: 0;
+    background-color: #f1c40f; /* Amarelo */
+}
+
+.central {
+    width: 200px;
+    height: 200px;
+    background-color: #9b59b6; /* Roxo */
+    text-align: center;
+    line-height: 200px;
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.paragrafo-verde {
+    color: #2ecc71; /* Verde */
+}
+
+.paragrafo-azul {
+    color: #3498db; /* Azul */
+}
+.links {
+    margin-top: 20px;
+}
+
+.link-visitado {
+    color: #808080; /* Cinza para links visitados */
+    text-decoration: underline;
+}
+
+.link-hover {
+    color: #ff5733; /* Vermelho para links com mouse sobre */
+    text-decoration: none;
+}
+
+.link-nao-visitado {
+    color: #0099cc; /* Azul para novos links não visitados */
+    text-decoration: none;
+}
+
+/* Efeito de hover para o link não visitado */
+.link-nao-visitado:hover {
+    text-decoration: underline;
+}
